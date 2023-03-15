@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    font-family: 'Inter', sans-serif;
+}
+.v-main{
+    font-family: 'Inter', sans-serif !important;
+    background-color: #212121!important;
+}
+.v-application {
+    [class*="text-"] {
+      font-family: 'Inter', sans-serif !important;
+      letter-spacing: 0 !important;
+    }
+    font-family: 'Inter', sans-serif !important;
+}
+.v-btn{
+    text-transform: none !important;
+    letter-spacing: 0;
+    font-weight: 600;
+}
+.v-table{ 
+    background-color: transparent !important; 
+    color: #fff !important;
+}
+// .v-data-table__td {
+//     background-color: transparent !important; 
+// }
+th {
+    color: #5e5e5e !important; 
+    font-size: 14px;
+}
+label{
+    color: #5e5e5e !important; 
+    font-size: 12px;
+}
+@media (max-width: 672px) {
+    .payment-card{
+        width: 100% !important;
+    }
+}

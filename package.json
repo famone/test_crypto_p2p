@@ -1,0 +1,36 @@
+{
+  "name": "crypto_p2p",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "serve": "vite preview",
+    "build": "vite build",
+    "dev": "vite",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@chenfengyuan/vue-countdown": "^2.1.0",
+    "@mdi/font": "5.9.55",
+    "axios": "^1.3.3",
+    "mitt": "^3.0.0",
+    "moment": "^2.29.4",
+    "moment-timezone": "^0.5.41",
+    "pinia": "^2.0.30",
+    "pinia-plugin-persistedstate": "^3.0.2",
+    "pusher-js": "^8.0.1",
+    "roboto-fontface": "*",
+    "vue": "^3.2.47",
+    "vue-credit-card-validation": "^1.0.5",
+    "vue-router": "^4.1.6",
+    "vue-the-mask": "^0.11.1",
+    "vuetify": "^3.1.5",
+    "webfontloader": "^1.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.0.0",
+    "vite": "^4.1.0",
+    "vite-plugin-vuetify": "^1.0.0-alpha.12",
+    "vue-cli-plugin-vuetify": "~2.5.8"
+  },
+  "type": "module"
+}
